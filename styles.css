@@ -1,0 +1,95 @@
+body{
+    text-align:center;
+    font-family: 'Happy Monkey', cursive;
+    background:linear-gradient(skyblue, pink);
+    color: white;
+    
+}
+
+h2,h3,h4{
+    text-shadow: 0px 0px 10px black;
+}
+#age_year{
+    background-color: #EFB0C9;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#birth_date{
+    margin-top: 0px;
+    background-color: #EFB0C9;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift_section{
+    margin-top: 50px;
+}
+.gift_image{
+    margin:auto;
+    width:400px;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: url(https://media.istockphoto.com/id/1349310287/photo/shot-of-an-unrecognisable-businessman-and-businesswoman-exchanging-christmas-gifts-in-a.jpg?b=1&s=170667a&w=0&k=20&c=KPeIkQj98AiG7kjR4Okp_g84KMHyJwReDnrNKYFYDzM=);
+    background-size:cover;
+    align-items: center;
+    
+}
+#happy:hover{
+    background-image: url(happy.gif);
+}
+
+#action:hover{ 
+    background-image: url(actionroom.gif);
+}
+
+#genius:hover{ 
+    background-image: url(genius.gif);
+}
+
+#badas:hover{ 
+    background-image: url(badas.gif);
+}
+
+#cheers:hover{ 
+    background-image: url(cheers.gif);
+    
+}
+
+#cheers{ 
+    height: 200px;
+    
+}
+
+
+.gift_txt{
+    background-color: #EFB0C9;
+}
+.gift_hover{
+    margin-top: 0px;
+}
+
+
+#avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #EFB0C9;
+}
+
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a{
+    color: white;
+}
+
